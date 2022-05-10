@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:lightgray;
+}
+
+header {
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    background-color:lightslategray;
+    color: #fff;
+    display: flex;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 60px;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    border-radius: 60%;
+    margin-left: 20px;
+}
+header nav {
+    margin-left: 150px;
+}
+header nav ul li {
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2 {
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(65, 71, 71);
+    border-right: 5px solid lightslategray;
+    padding: 10px;
+    width: 3in;
+}
+
+#content-about-me {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: dimgray;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#firstapp {
+    height: 500px;
+    width: 1000px;
+    padding: 10px;
+    border-style:solid;
+    border-color:lightslategray;
+    border-width: 20px;
+    margin-left: 20px;
+}
+
+#text-first-app {
+    font-size: 20px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    width: 450px;
+    background-color: rgba(144, 147, 150, 0.575);
+    color: #fff;
+}
+
+#first-article {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 320px;
+}
+
+.pictures {
+    height: 300px;
+    max-width: 500px;
+    padding: 10px;
+    border: lightslategray;
+    border-style: solid;
+    border-width: 20px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-block {
+    position: relative;
+    width: 100%;
+}
+
+h4 {
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+    width: 200px;
+    background-color: rgba(144, 147, 150, 0.575);
+    color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 50%
+    }
+}
